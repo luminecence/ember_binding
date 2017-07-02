@@ -1,0 +1,12 @@
+<h1>Test binding dynamique</h1>
+
+{{label-input libelle="prenom" modele="prenom"}}
+{{label-input libelle="nom" modele="nom"}}
+
+<h1>Récapitulatif</h1>
+
+<p>Je m'appelle {{model.prenom}} {{model.nom}}</p>
+
+<h1>Test avec un input personnalisé</h1>
+
+{{mon-input value=model.nom}}
